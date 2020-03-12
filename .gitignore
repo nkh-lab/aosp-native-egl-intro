@@ -1,0 +1,10 @@
+*.creator
+*.user
+*.files
+*.swp
+*.cflags
+*.cxxflags
+*.log
+build/
+temp/
+tools/

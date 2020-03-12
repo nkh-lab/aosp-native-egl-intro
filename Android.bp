@@ -1,0 +1,24 @@
+cc_binary {
+    name: "egl-intro",
+
+    cppflags: [
+        "-Wall",
+        "-Werror",
+    ],
+
+    srcs: [
+        "src/*.cpp",
+    ],
+
+    local_include_dirs: [
+        "src",
+    ],
+
+    shared_libs: [
+        "libgui",
+        "libui",
+        "libutils",
+        "libEGL",
+        "libGLESv3",
+    ],
+}
